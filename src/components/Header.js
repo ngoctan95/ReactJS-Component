@@ -5,11 +5,19 @@ class Header extends Component {
     return (
       
       <div className="App">
-        <header className="App-header">
-          <h1>Header</h1>
-          
-        </header>
-      
+       
+       <nav className="navbar navbar-inverse">
+         
+         <ul className="nav navbar-nav">
+           <li className="active">
+             <a >Home</a>
+           </li>
+           <li>
+             <a >Link</a>
+           </li>
+         </ul>
+       </nav>
+       
       </div>
     );
   }
